@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package b;
+
+import "google/protobuf/empty.proto";
+
+message MessageB {
+  string name = 1;
+}
+
+service ServiceB {
+  // Deletes an operation.
+  rpc CallServiceB ( MessageB ) returns ( google.protobuf.Empty );
+}

@@ -1,0 +1,3 @@
+generated/Sources/*
+generated/.build
+generated/Package.resolved
